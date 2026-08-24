@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jane A. Researcher, PhD — Department of Example Studies</title>
+<meta name="description" content="Personal academic website of Jane A. Researcher, Associate Professor of Example Studies.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="nav-wrap">
+    <a class="site-title" href="index.html">Jane A. Researcher</a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">&#9776;</button>
+    <nav class="primary-nav">
+      <ul>
+        <li><a href="index.html" aria-current="page">About</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="teaching.html">Teaching</a></li>
+        <li><a href="cv.html">CV</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <div class="placeholder-note">
+    <strong>Placeholder content.</strong> This whole site is a starting template — replace the bracketed text on every page with your own bio, research, courses, and publications before you publish it.
+  </div>
+
+  <div class="hero">
+    <div class="hero-portrait">
+      <img src="images/avatar-placeholder.svg" alt="Portrait of [Your Name]">
+    </div>
+    <div class="hero-text">
+      <h1>Jane A. Researcher, PhD</h1>
+      <p class="hero-role">Associate Professor, Department of Example Studies<br>[University Name]</p>
+      <p class="hero-links">
+        <a href="mailto:jane.researcher@example.edu">Email</a>
+        <a href="cv.html">CV</a>
+        <a href="https://scholar.google.com/">Google Scholar</a>
+        <a href="https://github.com/">GitHub</a>
+      </p>
+    </div>
+  </div>
+
+  <section>
+    <h2>About</h2>
+    <p>
+      [One or two paragraphs introducing yourself: your field, your general research
+      questions, and what drew you to them. Academic bios are usually written in the
+      third person — e.g., "Jane Researcher is an Associate Professor of Example Studies
+      at University Name, where she directs the [Lab/Group Name]." Aim for 100–200 words.]
+    </p>
+    <p>
+      [Optional second paragraph: your academic background — where you earned your PhD,
+      any postdocs or prior appointments, and a sentence on what you're working on now.]
+    </p>
+  </section>
+
+  <section>
+    <h2>Research interests</h2>
+    <div class="tag-row">
+      <span class="tag">[Topic area 1]</span>
+      <span class="tag">[Topic area 2]</span>
+      <span class="tag">[Topic area 3]</span>
+      <span class="tag">[Method or approach]</span>
+    </div>
+    <p>
+      [A short paragraph — 2–4 sentences — summarizing your current research program.
+      Link to the fuller <a href="research.html">Research</a> page for details.]
+    </p>
+  </section>
+
+  <section>
+    <h2>News</h2>
+    <div class="entry">
+      <p class="entry-meta">[Month Year]</p>
+      <p>[e.g., "Paper accepted at [Conference/Journal]." or "Awarded [Grant/Fellowship name]."]</p>
+    </div>
+    <div class="entry">
+      <p class="entry-meta">[Month Year]</p>
+      <p>[Another short news item — talks, awards, new students joining the lab, etc.]</p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <p>&copy; <span id="year"></span> Jane A. Researcher &middot; Built with <a href="https://pages.github.com/">GitHub Pages</a></p>
+</footer>
+
+<script src="js/main.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
