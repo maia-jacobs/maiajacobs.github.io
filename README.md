@@ -12,30 +12,12 @@
 | `cv.html` | Appointments, education, awards, selected funding, selected service + download button for `files/cv.pdf` |
 | `contact.html` | Email, department, office address, lab link |
 
-Shared styles are in `css/style.css`; the only script (`js/main.js`) just
-handles the mobile menu toggle. `.nojekyll` tells GitHub Pages to serve the
-files as-is. Your real CV is already sitting at `files/cv.pdf` — the
-"Download full CV" button on the CV page points straight to it.
 
-## 1. A few things worth double-checking before you publish
-
-- **Photo:** I couldn't fetch your lab headshot automatically (the site
-  blocks that kind of direct download), so `images/avatar-placeholder.svg`
-  is currently a plain "MJ" monogram. Swap in a real photo any time — drop
-  an image file into `images/` and update the `src` on the `.hero-portrait`
-  `<img>` tag on `index.html`.
 - **Other links:** Google Scholar, GitHub, LinkedIn, or Bluesky/X aren't
   linked anywhere since I didn't have confirmed URLs for them — add them to
   the `.hero-links` on `index.html` and/or the contact list on
   `contact.html` whenever you'd like.
-- **News section:** the four items on the home page are real but
-  hand-picked — update them as things change (new papers, awards, grants).
-- **Publications:** the full journal/conference list and one book chapter
-  are included. Workshop papers, extended abstracts, and posters were left
-  out for length — the full CV PDF has everything.
-- **Funding:** `research.html` and `cv.html` only list awarded PI/Co-PI
-  grants from your CV, not items marked "In Review" or "Submitted,
-  Unfunded" — update these as those move from pending to funded.
+
 
 ## 2. Put it on GitHub
 
