@@ -1,7 +1,5 @@
 # Maia Jacobs — personal site
 
-A plain HTML/CSS site (no build step, no framework) meant to be hosted for
-free on GitHub Pages, built from your CV and the NU-PATH Lab website.
 
 ## Pages
 
